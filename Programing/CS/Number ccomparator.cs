@@ -1,6 +1,6 @@
 using System;
 All:
-Console.ForegroundColor = ConsoleColor.Red;
+Console.ForegroundColor = ConsoleColor.Black;
 Console.Title = "Comparator";
 Console.CursorSize = 10;
 Console.BackgroundColor = ConsoleColor.White;
