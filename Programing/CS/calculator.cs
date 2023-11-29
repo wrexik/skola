@@ -1,4 +1,3 @@
-//SUIII
 Console.WriteLine("Ahoj, vita te tva mega scitacka ♥");
 Console.WriteLine("Napis znak operace: [+, -, *, /]");
 string operace = Console.ReadLine();
