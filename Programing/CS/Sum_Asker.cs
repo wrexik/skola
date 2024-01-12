@@ -2,7 +2,7 @@
 
 class Program //Vše co je tu udává hodnotu objektu Program
 {
-    static void Main() //Návratový typ, kter
+    static void Main() //Návratový typ, který nevrací hodnotu
     {
         while (true) //Když pravda
         {
