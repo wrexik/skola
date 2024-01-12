@@ -24,7 +24,7 @@ class Program //Vše co je tu udává hodnotu objektu Program
                 Console.Write("Chcete pokračovat? (a/n): "); //Otázka zda chcete pokračovat
             } while (Console.ReadLine().Trim().ToLower() == "a"); //Loop pro čtení vstupu k otázce o pokračování
 
-            Console.WriteLine($"Total sum: {totalSum}"); //Vypsání výsledku
+            Console.WriteLine($"Výsledek je : {totalSum}"); //Vypsání výsledku
             
 
             Console.Write("Chcete spočítat další příklad? (a/n): "); //Otázka zda chcete další příklad
