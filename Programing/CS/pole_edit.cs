@@ -19,6 +19,16 @@ while (true) { // loop
 
     if (pokracovat == "ne") {
 
+        Console.Write(" ");
+        int i = 0;
+
+        foreach (string word in words)
+        { 
+           i = i + 1;
+           Console.Write(i);
+           Console.Write(" ");
+           Console.WriteLine(word);
+        }
         break; // ne == konec
     }
 
