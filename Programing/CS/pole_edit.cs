@@ -22,7 +22,7 @@ while (true) { // loop
         Console.Write(" ");
         int i = 0;
 
-        foreach (string word in words)
+        foreach (string word in words) // vypis vsech radku v poli + cislo
         { 
            i = i + 1;
            Console.Write(i);
