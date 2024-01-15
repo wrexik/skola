@@ -1,12 +1,8 @@
 using System.Security.Authentication.ExtendedProtection;
 
-string[] words = new string[10];
-Console.WriteLine("Chcete pokracovat?");
-string pokracovat = Console.ReadLine();
+string[] words = new string[10]; // zacne list s velikosti 10
 
-
-while (pokracovat == "ano") {
-    Console.WriteLine("ON");
+while (true) { // loop
 
     Console.WriteLine("Kde chcete změnit písmeno?");
     int num_list = Convert.ToInt32(Console.ReadLine());
@@ -14,12 +10,18 @@ while (pokracovat == "ano") {
     Console.WriteLine("Co to bude za písmeno?");
     string num_change = Console.ReadLine();
 
-    words[num_list] = num_change;
+    words[Convert.ToUInt32(num_list)] = num_change; // prida moznosti na dane pole do listu
 
-    Console.Write("Uspesne zmeneno: {0} na {1}", num_list, num_change);
+    Console.WriteLine("Uspesne zmeneno: {0} na {1}", num_list, words[Convert.ToUInt32(num_list)]);
 
-    Console.WriteLine(words[num_list]);
+    Console.WriteLine("Chcete pokracovat?");
+    string pokracovat = Console.ReadLine(); // prompt na opakovani / nove hodnoty
 
-    ///Console.WriteLine("Chcete pokracovat?");
-    ///string pokracovat = Console.ReadLine();
+    if (pokracovat == "ne") {
+
+        break; // ne == konec
+    }
+
 }
+
+//done EZ
