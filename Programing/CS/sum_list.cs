@@ -4,7 +4,8 @@ int[] list2 = new int[4];
 
 int i = -1;
 
-foreach (int val1 in list1) {
+foreach (int val1 in list1) 
+{
     ++i;
 
     int cislo1 = Convert.ToInt32(Console.ReadLine());
