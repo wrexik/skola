@@ -11,4 +11,3 @@ foreach (string word in wordsarray)
 		Console.WriteLine("Nalezené slovo: " + word);
 	}
 }
-//ok
