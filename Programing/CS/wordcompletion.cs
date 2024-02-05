@@ -31,11 +31,12 @@ while (true)
     }
     else if (response.ToLower() == "ano") // Odpověď ano -> program se zeptá na jiná klíčová slova
     {
-        Console.WriteLine("Zadejte klicova pismena pro zahajeni vyhledavani naseptavace mezi slovy"); //Zadání klíčových slov do našeptávače
+        Console.WriteLine("Zadejte klicova pismena pro zahajeni vyhledavani naseptavace mezi slovy"); // Zadání klíčových slov do našeptávače
         input = Console.ReadLine();
     }
     else
     {
-        Console.WriteLine("Neplatná odpověď. Zadejte 'ano' nebo 'ne'.");  // Zde je chyba, kdy dojde k vypsání původně nalezených slov hned za příkazem "Console.WriteLine", bohužel jsem to nedokázal vyřešit.
+        Console.WriteLine("Neplatná odpověď. Zadejte 'ano' nebo 'ne'."); 
+        input = ""; // Změna stringu input na prázdný string aby platilo "!string.IsNull0rEmpty" v řádku 11
     }
 }
