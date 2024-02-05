@@ -1,4 +1,4 @@
-// © Diktátor s.r.o.
+// © Diktátor a spol. s.r.o.
 
 List<string> wordlist = new List<string> { "mokry", "maso", "mlynar", "maso", "makaron", "masozravy" }; //Seznam slov našeptávače ve stringu
 string[] wordsarray = wordlist.ToArray(); // Převod slov z seznamu slov ve stringu do pole
