@@ -8,6 +8,7 @@ foreach (string word in wordsarray)
 {
 	if (word.StartsWith(input))
 	{
-		Console.WriteLine("Nalezené slovo: " + word);
+		Console.WriteLine("NalezenÃ© slovo: " + word);
 	}
 }
+//ok
