@@ -12,7 +12,7 @@ while (true)
         {
             Console.WriteLine("Nalezené slovo: " + word);
         }
-    }
+}
 
     Console.WriteLine("Chcete pokracovat ve vyhledavani (ano/ne)?");
     string response = Console.ReadLine();
