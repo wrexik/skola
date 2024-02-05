@@ -1,4 +1,4 @@
-List<string> wordlist = new List<string> { "mokry", "maso", "mlynar", "maso", "makarom", "masozravy" }; //Seznam slov našeptávače ve stringu
+List<string> wordlist = new List<string> { "mokry", "maso", "mlynar", "maso", "makaron", "masozravy" }; //Seznam slov našeptávače ve stringu
 string[] wordsarray = wordlist.ToArray(); // Převod slov z seznamu slov ve stringu do pole
 
 // Zadání klíčových slov do našeptávače
