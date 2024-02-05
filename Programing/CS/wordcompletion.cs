@@ -24,12 +24,12 @@ while (true)
     Console.WriteLine("Chcete pokracovat ve vyhledavani (ano/ne)?"); // Otázka pro pokračování ve vyhledávání slov
     string response = Console.ReadLine();
 
-    if (response.ToLower() == "ne")  // Odpověď ne ukončí loop
+    if (response == "ne")  // Odpověď ne ukončí loop
     {
         Console.WriteLine("Vyhledavani naseptavace bylo ukonceno");
         break;
     }
-    else if (response.ToLower() == "ano") // Odpověď ano -> program se zeptá na jiná klíčová slova
+    else if (response == "ano") // Odpověď ano -> program se zeptá na jiná klíčová slova
     {
         Console.WriteLine("Zadejte klicova pismena pro zahajeni vyhledavani naseptavace mezi slovy"); // Zadání klíčových slov do našeptávače
         input = Console.ReadLine();
