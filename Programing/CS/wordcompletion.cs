@@ -12,11 +12,12 @@ while (true)
 {
     if (!string.IsNullOrEmpty(input))
     {
-        foreach (string word in wordsarray)  // Vypsání nalezených slov
+        for (int i = 0; i < wordsarray.Length; i++)
         {
-            if (word.StartsWith(input))
+            string word = wordsarray[i];
+            if (word.StartsWith(input)) 
             {
-                Console.WriteLine("Nalezené slovo: " + word);  
+                Console.WriteLine("Nalezené slovo: " +word);
             }
         }
     }
