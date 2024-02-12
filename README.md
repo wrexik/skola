@@ -9,6 +9,7 @@ This repo is used to share / store our code. Or copy, right?
 ## C#
   Themes:
   * array (sort / add / list) - [[scr]](https://github.com/wrexik/skola/tree/main/Programing/CS/array)
+  * function (static int) - [[scr]](https://github.com/wrexik/skola/tree/main/Programing/CS/function)
   * else (calc / compare / sum) - [[scr]](https://github.com/wrexik/skola/tree/main/Programing/CS)
 
 ## Python
