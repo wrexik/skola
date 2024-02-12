@@ -25,7 +25,6 @@ while (true)
             }
         }
     }
-
     // Otázka pro pokračování ve vyhledávání
     Console.WriteLine("Chcete pokracovat ve vyhledavani (ano/ne)?");
     string response = Console.ReadLine();
