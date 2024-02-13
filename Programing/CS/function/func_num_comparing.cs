@@ -1,0 +1,20 @@
+// Pole s čísli
+int[] num = { 5, 2, 3, 8, 10 };
+
+// Volání funkce pro porovnávání čísel v poli
+CompareNumbers(num);
+
+// Vypsání čísel v poli od největšího po nejmenší
+for (int i = 0; i < num.Length; i++)
+{
+    Console.WriteLine("Pozice {0} = {1}", i, hod);
+}
+
+// Funkce pro porovnávání čísel v poli
+static void CompareNumbers(int[] num)
+{
+    for (int j = 0; j < num.Length; j++)
+    {
+
+    }
+}
